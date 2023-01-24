@@ -1,0 +1,138 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "PingFang SC";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.41;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+.container-basic {
+  background-image: url(./img/back.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 384px;
+  padding-left: 29px;
+  padding-right: 29px;
+  padding-bottom: 76px;
+}
+.container {
+  background: rgba(255, 255, 255, 1);
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 34px;
+}
+.flex-container__menu {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 193px;
+}
+.margin-bot {
+  border-bottom: 0.5px solid #fccef5;
+}
+.margin-bot:not(:last-child) {
+  margin-bottom: 5px;
+}
+.flex-container__footer {
+  width: 270px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.table-title {
+  background: linear-gradient(270deg, #e5c4ff 0%, #ffbae1 96%);
+  border-radius: 37px;
+  margin-bottom: 10px;
+  width: 284px;
+  justify-content: space-around;
+}
+.img-title {
+  margin-bottom: 22px;
+  display: flex;
+  justify-content: center;
+}
+.menu-table {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.title-table {
+  font-weight: 600;
+  color: #515059;
+}
+.left {
+  font-weight: 600;
+  color: #4a4dff;
+}
+.right {
+  font-weight: 600;
+  color: #e35ba7;
+}
+.div-title {
+  font-weight: 500;
+  color: #4a4dff;
+  margin-bottom: 6px;
+}
+.div-text {
+  width: 270px;
+
+  color: rgba(12, 22, 51, 0.56);
+}
+.text-color {
+  color: #ff9900;
+}
+.div-text:not(:last-child) {
+  margin-bottom: 6px;
+}
+.container-button {
+  width: 174px;
+  height: 33px;
+
+  border-radius: 37px;
+  padding: 7px 21px;
+  background: linear-gradient(287.59deg, #8385fe -3.05%, #4a4dff 91.7%);
+  display: flex;
+  margin: auto;
+
+  justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.container-button:not(:last-child) {
+  margin-bottom: 12px;
+}
+.div-container {
+  margin-bottom: 22px;
+}
